@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    /*background-image: url('https://localtvwnep.files.wordpress.com/2018/02/nick-foles-super-bowl-trophy.jpg?quality=85&strip=all&w=400&h=225&crop=1');*/
 }
 
 .superbowl {
@@ -23,13 +24,39 @@ body {
     border-radius: 50px;
 }
 
-#superbowl question {
-    font-family: sans-serif;
-    font-size: 50px;
-    color: #5a6772;
+.superbowl p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2B2B2B;
 }
 
-.botton {
+#button0, #button1, #button2, #button3 {
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+#counter {
+    color: #5a6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#button0:hover, #button1:hover, #button2:hover, #button3:hover {
+    cursor: pointer;
+    background-color: #57636e;
+}
+
+#button0:focus, #button1:focus, #button2:focus, #button3:focus {
+    outline: 0;
+}
+
+hr {
     margin-top: 30px;
 }
-
