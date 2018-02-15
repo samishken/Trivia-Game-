@@ -14,7 +14,9 @@ class Question {
  }
  // Trivia class which generates questions and choices, count questions,
  // move to next question while keeping the score or correct answers
-class Trivia {
+ 
+
+ class Trivia {
   constructor (questions) {
     this.questions = questions
     this.score = 0
