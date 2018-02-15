@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
-    /*background-image: url('https://localtvwnep.files.wordpress.com/2018/02/nick-foles-super-bowl-trophy.jpg?quality=85&strip=all&w=400&h=225&crop=1');*/
+    background-image: url('https://localtvwnep.files.wordpress.com/2018/02/nick-foles-super-bowl-trophy.jpg?quality=85&strip=all&w=400&h=225&crop=1');
+    background-size: cover;
 }
 
 .superbowl {
@@ -8,15 +9,16 @@ body {
     height: 500px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 10px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     border-radius: 50px;
-    border: 2px solid #cbcbcb;
+    border: 1px solid #cbcbcb;
     box-shadow: 10px 15px 5px #cbcbcb;
+    opacity: 0.9;
 }
 
 .superbowl h1 {
     font-family: sans-serif;
-    background-color: #57636e;
+    background-color: darkgreen;
     font-size: 60px;
     text-align: center;
     color: #fff;
@@ -31,7 +33,7 @@ body {
 }
 
 #button0, #button1, #button2, #button3 {
-    background-color: #778897;
+    background-color: darkgreen;
     width: 250px;
     font-size: 20px;
     color: #fff;
@@ -41,6 +43,11 @@ body {
     padding: 10px 10px;
     font-weight: bold;
 }
+
+#score {
+    text-align: center
+}
+
 #counter {
     color: #5a6772;
     text-align: center;
@@ -50,7 +57,7 @@ body {
 
 #button0:hover, #button1:hover, #button2:hover, #button3:hover {
     cursor: pointer;
-    background-color: #57636e;
+    background-color: darkgreen;
 }
 
 #button0:focus, #button1:focus, #button2:focus, #button3:focus {
