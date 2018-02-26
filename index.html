@@ -5,31 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Trivia Game</title>
+    <title>Trivia Game</title> <!-- Have your title be something less generic, like `Eagles Trivia` -->
 </head>
 <body>
     <div class='superbowl'>
         <div id='trivia'>
             <h1>Super Bowl Trivia</h1>
-                <hr>
-
+            <hr>
             <p id="question"></p>
-    
-    <div class="button">
-        <button id='button0'><span id='choice0'></span></button>
-        <button id='button1'><span id='choice1'></span></button>
-        <button id='button2'><span id='choice2'></span></button>
-        <button id='button3'><span id='choice3'></span></button>
-    </div>
-        
-    <hr>
-        <footer>
-            <p id='counter'>Question counter</p>
-            
-        </footer>
-    </div>
-</div>
 
+            <div class="button"> <!-- probably call this class `buttons` -->
+                <button id='button0'><span id='choice0'></span></button>
+                <button id='button1'><span id='choice1'></span></button>
+                <button id='button2'><span id='choice2'></span></button>
+                <button id='button3'><span id='choice3'></span></button>
+            </div>
+                
+            <hr>
+            <footer>
+                <p id='counter'>Question counter</p> <!-- You don't have to put anything in this p tag if it'll just be replaced anyways -->
+            </footer>
+        </div>
+    </div>
     <script src="trivia.js"></script>
 </body>
 </html>
+
+<!-- Good job on the html overall. html is all valid and makes pretty good use of semantic element names -->
