@@ -5,7 +5,7 @@ body {
 }
 
 .superbowl {
-    width: 600px;
+    width: 600px; /* Consider making this a percentage so it scales better with page sizing. Or add media queries */
     height: 500px;
     margin: 0 auto;
     background-color: #fff;
@@ -13,11 +13,11 @@ body {
     border-radius: 50px;
     border: 1px solid #cbcbcb;
     box-shadow: 10px 15px 5px #cbcbcb;
-    opacity: 0.9;
+    opacity: 0.9; /* Cool use of opacity and box-shadow */
 }
 
 .superbowl h1 {
-    font-family: sans-serif;
+    font-family: sans-serif; /* Maybe use something like Helvetica, and sans-serif as a backup to that */
     background-color: darkgreen;
     font-size: 60px;
     text-align: center;
@@ -32,7 +32,7 @@ body {
     color: #2B2B2B;
 }
 
-#button0, #button1, #button2, #button3 {
+#button0, #button1, #button2, #button3 { /* Use a common class name for the buttons instead of selecting each one */
     background-color: darkgreen;
     width: 250px;
     font-size: 20px;
@@ -54,8 +54,7 @@ body {
     font-size: 30px;
 }
 
-
-#button0:hover, #button1:hover, #button2:hover, #button3:hover {
+#button0:hover, #button1:hover, #button2:hover, #button3:hover { /* Give the buttons a common classname so you don't have to select each individually */
     cursor: pointer;
     background-color: darkgreen;
 }
@@ -67,3 +66,9 @@ body {
 hr {
     margin-top: 30px;
 }
+/* Move this hr closer to the top of the page. */
+/* Typically you want your css file to be ordered like this: element selectors, classes, then ids */
+
+/* CSS is solid overall and passes validations */
+/* Biggest way to improve here would be to handle page resizing by making your page more responsive.*/
+/* Ways to do that would be modern css displays like flexbox/grid, and to add media queries to listen when someone looks at your page with a smaller width. */
